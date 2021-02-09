@@ -1,0 +1,38 @@
+{
+	"name": "subscription-tracker",
+	"version": "1.0.0",
+	"description": "A simple subscription tracker and 🔔 notification system - It  is based on a CRON Job scheduler where it runs/calls the service (API) that we have created to check the subscription details, extended dates, and sets flags such as information, warning, blocking based on the customer's data, and send notifications accordingly.",
+	"main": "server.js",
+	"scripts": {
+		"start": "nodemon server/server.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/saratkumar17mss040/Subscription-tracker.git"
+	},
+	"keywords": [
+		"subscription-tracker",
+		"notification-system",
+		"cron",
+		"cron-job",
+		"cron-job-scheduler"
+	],
+	"author": "sarath",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/saratkumar17mss040/Subscription-tracker/issues"
+	},
+	"homepage": "https://github.com/saratkumar17mss040/Subscription-tracker#readme",
+	"dependencies": {
+		"@hapi/hapi": "^20.1.0",
+		"aws-sdk": "^2.840.0",
+		"joi": "^17.4.0"
+	},
+	"devDependencies": {
+		"dotenv": "^8.2.0",
+		"eslint": "^7.19.0",
+		"nodemon": "^2.0.7",
+		"prettier": "^2.2.1"
+	}
+}
