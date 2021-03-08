@@ -1,0 +1,86 @@
+[
+    {
+        "uuid": "4942f79b-90d2-426f-9ca9-3aff228155e4",
+        "email": "sarathdon9245@gmail.com",
+        "mobile": 8428262246,
+        "businessName": "FB Cakes",
+        "registers": {
+            "9961fbe7-2709-4d6c-89a3-17e96b409751": {
+                "name": "Store 1",
+                "status": "active"
+            }
+        }
+    },
+    {
+        "uuid": "984a84cb-79e0-4ebe-9a49-fd03949b9cdd",
+        "email": "abishek@slickpos.com",
+        "mobile": 9886165860,
+        "businessName": "KRB Sweets",
+        "registers": {
+            "c25fcc62-18b7-4ed6-b489-d5015922592b": {
+                "name": "Store 2",
+                "status": "active"
+            }
+        }
+    },
+    {
+        "uuid": "0405158e-28ee-474e-a32a-a2be2fcff485",
+        "email": "mithunangaraj@gmail.com",
+        "mobile": 8754070298,
+        "businessName": "Pasam Cakes",
+        "registers": {
+            "1d392169-a0ad-4c0c-a6f9-4245d9a0b405": {
+                "name": "Store 3",
+                "status": "active"
+            }
+        }
+    },
+    {
+        "uuid": "f3d54392-481d-4fdd-8462-310e0b977a11",
+        "email": "b4cluanthais@mikaelskin.com",
+        "mobile": 9655502330,
+        "businessName": "Delighted Cakes",
+        "registers": {
+            "e98cd881-7392-4b1a-a324-01bccf6867c9": {
+                "name": "Store 4",
+                "status": "deleted"
+            }
+        }
+    },
+    {
+        "uuid": "2657e83c-a359-4356-b60b-a8e1617c5232",
+        "email": "b5cluanthais@mikaelskin.com",
+        "mobile": 755850233,
+        "businessName": "Subway",
+        "registers": {
+            "7f00ba80-7b85-4139-ab37-8eba10a614c5": {
+                "name": "Store 5",
+                "status": "active"
+            }
+        }
+    },
+    {
+        "uuid": "b6911df7-2963-4ed5-b310-97038582d23c",
+        "email": "b6cluanthais@mikaelskin.com",
+        "mobile": 8555512330,
+        "businessName": "SNB Sweets",
+        "registers": {
+            "fa7e214a-15da-4956-9eb3-628d4ca8f6a6": {
+                "name": "Store 6",
+                "status": "active"
+            },
+            "272870aa-01a4-4c3c-81a8-56813e7916ff": {
+                "name": "Store 7",
+                "status": "active"
+            },
+            "ef07ec25-1e24-4a24-8df4-6bd60f9f07e2": {
+                "name": "Store 8",
+                "status": "active"
+            },
+            "ea37ed45-ff03-445c-994a-f1af776ad024": {
+                "name": "Store 9",
+                "status": "inactive"
+            }
+        }
+    }
+]

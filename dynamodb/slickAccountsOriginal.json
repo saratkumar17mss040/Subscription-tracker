@@ -1,0 +1,1009 @@
+{
+    "additionalCharges": {
+        "045f9086-4466-4875-859b-66b2ec457ac0": {
+            "createdAt": 1517916551538,
+            "deletedAt": 1518008078537,
+            "isAutomaticallyAdded": true,
+            "name": "Service charge",
+            "status": "deleted",
+            "taxGroupId": "ac7de543-8ede-4b12-9a48-5086c26a285b",
+            "type": "percentage",
+            "value": 10
+        },
+        "296e82fb-f130-44b0-b1c5-5bc62bc740b9": {
+            "createdAt": 1523253011200,
+            "deletedAt": 1523253053426,
+            "isAutomaticallyAdded": false,
+            "name": "Delivery 10Km",
+            "status": "deleted",
+            "taxGroupId": "ac7de543-8ede-4b12-9a48-5086c26a285b",
+            "type": "cash",
+            "value": 5
+        },
+        "40576b41-6360-4c49-b967-1eb13cc67e39": {
+            "createdAt": 1523253758344,
+            "isAutomaticallyAdded": false,
+            "name": "Delivery 10km",
+            "status": "active",
+            "taxGroupId": "ac7de543-8ede-4b12-9a48-5086c26a285b",
+            "type": "percentage",
+            "updatedAt": 1527411368603,
+            "value": 3
+        },
+        "5028e1de-fee7-44a3-ac31-ef1c6a035588": {
+            "createdAt": 1517916312435,
+            "deletedAt": 1518008078537,
+            "isAutomaticallyAdded": false,
+            "name": "Delivery 5km",
+            "status": "deleted",
+            "taxGroupId": "ac7de543-8ede-4b12-9a48-5086c26a285b",
+            "type": "cash",
+            "value": 100
+        },
+        "780f921a-64cd-4a68-9c61-222ddeb3f4be": {
+            "createdAt": 1525949368047,
+            "isAutomaticallyAdded": false,
+            "name": "Delivery >10km",
+            "status": "active",
+            "taxGroupId": "ac7de543-8ede-4b12-9a48-5086c26a285b",
+            "type": "percentage",
+            "value": 10
+        },
+        "79ce8b0a-b6ba-4828-b435-1eae041f77fe": {
+            "createdAt": 1518008632985,
+            "deletedAt": 1518009380795,
+            "isAutomaticallyAdded": true,
+            "name": "Parcel charges",
+            "status": "deleted",
+            "taxGroupId": "ac7de543-8ede-4b12-9a48-5086c26a285b",
+            "type": "cash",
+            "value": 100
+        },
+        "9383cb0b-8c46-4f91-bd2f-b6c8c9c0ad4e": {
+            "createdAt": 1518022120939,
+            "deletedAt": 1518027304202,
+            "isAutomaticallyAdded": true,
+            "name": "Service Charge",
+            "status": "deleted",
+            "taxGroupId": "ac7de543-8ede-4b12-9a48-5086c26a285b",
+            "type": "percentage",
+            "value": 10
+        },
+        "a5b89e98-4f1c-4698-9371-ed8954c97b71": {
+            "createdAt": 1518022163757,
+            "isAutomaticallyAdded": false,
+            "name": "Delivery 5km",
+            "status": "active",
+            "taxGroupId": "ac7de543-8ede-4b12-9a48-5086c26a285b",
+            "type": "cash",
+            "updatedAt": 1525949206147,
+            "value": 200
+        },
+        "a621bc32-f85a-482c-a790-68d8ac632bdf": {
+            "createdAt": 1518027813892,
+            "isAutomaticallyAdded": false,
+            "name": "Service Charge",
+            "status": "active",
+            "taxGroupId": "ac7de543-8ede-4b12-9a48-5086c26a285b",
+            "type": "percentage",
+            "updatedAt": 1518073647729,
+            "value": 10
+        }
+    },
+    "additionalReceiptDetails": {
+        "custom": [
+            {
+                "isPrintableOnReceipt": false,
+                "name": "VPA"
+            },
+            {
+                "isPrintableOnReceipt": false,
+                "name": "Waiter"
+            }
+        ]
+    },
+    "addonGroups": [
+        {
+            "addonIds": [
+                "6033b18e-8d3b-4529-992f-cf99c552c067",
+                "352576de-ff02-4fb6-9a91-dde72f925366"
+            ],
+            "id": "08dc81d2-91ad-4416-92ac-f70c455ec015",
+            "maxSelectable": 1,
+            "minSelectable": 1,
+            "name": "Dips & Sauces"
+        },
+        {
+            "addonIds": [
+                "03abbc77-9891-4d73-af83-8a7ca0701ab3",
+                "2b836911-95e3-4b64-88cf-b99eba0493a8",
+                "6d3cc025-b5be-423a-9f87-6834c4e32f61"
+            ],
+            "id": "8a4032a9-5e6b-4440-b7ff-5e2787ce7df7",
+            "name": "Flakes"
+        }
+    ],
+    "addons": [
+        {
+            "id": "6033b18e-8d3b-4529-992f-cf99c552c067",
+            "name": "Mayo",
+            "order": 1,
+            "price": 20
+        },
+        {
+            "id": "352576de-ff02-4fb6-9a91-dde72f925366",
+            "name": "BBQ",
+            "order": 2,
+            "price": 20
+        },
+        {
+            "id": "03abbc77-9891-4d73-af83-8a7ca0701ab3",
+            "name": "Chilli",
+            "order": 1,
+            "price": 5
+        },
+        {
+            "id": "2b836911-95e3-4b64-88cf-b99eba0493a8",
+            "name": "Garlic",
+            "order": 2,
+            "price": 5
+        },
+        {
+            "id": "6d3cc025-b5be-423a-9f87-6834c4e32f61",
+            "name": "Oregano",
+            "order": 3,
+            "price": 5
+        }
+    ],
+    "appUsers": {
+        "a4b9a59a-a506-4547-9030-63f89dc73a08": {
+            "createdAt": 1544636859617,
+            "name": "Lewis",
+            "pin": "4444",
+            "status": "active"
+        },
+        "d332a265-a297-4c79-a092-ec46a111a888": {
+            "createdAt": 1550585390817,
+            "name": "Abishek",
+            "pin": "8989",
+            "status": "active"
+        }
+    },
+    "billNumbers": {
+        "46a20294-18b7-4fa6-bf70-0ac20ee71355": 761,
+        "5c2748ff-681d-433f-82e2-ec6115486b28": 919
+    },
+    "businessAddress": {
+        "city": "Coimbatore, Tamil Nadu, India"
+    },
+    "businessName": "Slick Eats",
+    "businessType": "fast-food",
+    "cashiers": {
+        "10750efe-d43f-454e-ae07-153f2a00e416": {
+            "createdAt": 1509738498418,
+            "name": "Cashier Y",
+            "pin": "0912",
+            "registerUuid": "5c2748ff-681d-433f-82e2-ec6115486b28",
+            "role": "cashier",
+            "status": "active",
+            "updatedAt": 1549698805331
+        },
+        "40f06d19-23c1-490d-99cd-3d996bdae3f1": {
+            "createdAt": 1509417298549,
+            "name": "Cashier A",
+            "pin": "1234",
+            "registerUuid": "46a20294-18b7-4fa6-bf70-0ac20ee71355",
+            "role": "cashier",
+            "status": "active",
+            "updatedAt": 1550586971218
+        },
+        "7e494151-7727-44db-9521-ad4d17126348": {
+            "createdAt": 1536313668330,
+            "name": "New Casher",
+            "pin": "9999",
+            "registerUuid": "5c2748ff-681d-433f-82e2-ec6115486b28",
+            "role": "manager",
+            "status": "active",
+            "updatedAt": 1536313685457
+        },
+        "7e52816e-f0e7-4d5a-b31a-98fe8adc0f07": {
+            "createdAt": 1509444212208,
+            "name": "Cashier B",
+            "pin": "1236",
+            "registerUuid": "5c2748ff-681d-433f-82e2-ec6115486b28",
+            "role": "cashier",
+            "status": "active",
+            "updatedAt": 1529132292206
+        },
+        "c5d479d7-3a54-4ee7-91f1-f1f7303b5fc0": {
+            "createdAt": 1509444235226,
+            "name": "Cashier X",
+            "pin": "9876",
+            "registerUuid": "46a20294-18b7-4fa6-bf70-0ac20ee71355",
+            "role": "cashier",
+            "status": "active"
+        }
+    },
+    "createdAt": 1509414233585,
+    "customCustomerFields": [
+        {
+            "isPrintableOnReceipt": false,
+            "name": "GSN"
+        }
+    ],
+    "customerDetailsConfig": {
+        "custom": [
+            {
+                "isPrintableOnReceipt": false,
+                "name": "GSN"
+            }
+        ],
+        "standard": [
+            {
+                "isPrintableOnReceipt": false,
+                "name": "Shipping Address",
+                "type": "address"
+            }
+        ]
+    },
+    "customerTags": [
+        {
+            "color": "purple",
+            "isPrintableOnReceipt": true,
+            "name": "Member"
+        }
+    ],
+    "customPayments": [
+        {
+            "name": "UPI"
+        }
+    ],
+    "customPettyCashCategories": [
+        {
+            "name": "Owner Cash"
+        },
+        {
+            "name": "Previous Shift Balance"
+        },
+        {
+            "name": "Employee Snacks"
+        }
+    ],
+    "customReceiptFields": [
+        {
+            "isPrintableOnReceipt": false,
+            "name": "VPA"
+        },
+        {
+            "isPrintableOnReceipt": false,
+            "name": "Waiter"
+        },
+        {
+            "isPrintableOnReceipt": true,
+            "name": "Message on the Cake"
+        }
+    ],
+    "discountRules": {
+        "07f331e8-1f59-4279-b737-d22a9451827b": {
+            "configuration": {
+                "conditions": {
+                    "productIds": ["4c586e17-a7a6-4fea-b523-bec95976b172"]
+                },
+                "discountPercentage": 80
+            },
+            "couponCode": "SH80",
+            "createAt": 1584357321466,
+            "id": "07f331e8-1f59-4279-b737-d22a9451827b",
+            "isAutomaticallyApplied": true,
+            "level": "product",
+            "status": "active",
+            "type": "percentage",
+            "updatedAt": 1584364760051,
+            "visibility": {
+                "startsAt": 1584297000000
+            }
+        },
+        "135269cc-3938-4eb6-a187-a21c2f52b6b3": {
+            "canApplyAutomatically": true,
+            "configuration": {
+                "conditions": {
+                    "categoryIds": ["eb81a976-dd4c-4a67-9b85-860a9b4a926b"]
+                },
+                "discountPercentage": 20
+            },
+            "couponCode": "OFF20",
+            "createAt": 1542013774800,
+            "id": "135269cc-3938-4eb6-a187-a21c2f52b6b3",
+            "level": "product",
+            "status": "active",
+            "type": "percentage",
+            "visibility": {
+                "startDateTime": 1541961000000
+            }
+        },
+        "2c1f5613-203a-46dd-9583-f99f389a7d5b": {
+            "canApplyAutomatically": false,
+            "configuration": {
+                "conditions": {
+                    "categoryIds": ["eb81a976-dd4c-4a67-9b85-860a9b4a926b"],
+                    "minimumQuantity": 2
+                },
+                "discountAmount": 50
+            },
+            "couponCode": "50OFF",
+            "createAt": 1542615328642,
+            "id": "2c1f5613-203a-46dd-9583-f99f389a7d5b",
+            "level": "product",
+            "status": "active",
+            "type": "fixed-amount",
+            "updatedAt": 1542615842738,
+            "visibility": {
+                "startsAt": 1542565800000
+            }
+        },
+        "70525b9c-85cf-4fc1-94ac-15f58a525c16": {
+            "configuration": {
+                "discountAmount": 50
+            },
+            "couponCode": "XMAS",
+            "createAt": 1576311111419,
+            "id": "70525b9c-85cf-4fc1-94ac-15f58a525c16",
+            "isAutomaticallyApplied": false,
+            "level": "order",
+            "status": "active",
+            "type": "fixed-amount",
+            "visibility": {
+                "startsAt": 1576261800000
+            }
+        },
+        "a8e0295b-5c3d-4936-a891-e559d9909432": {
+            "canApplyAutomatically": true,
+            "configuration": {
+                "conditions": {
+                    "minimumAmount": 100
+                },
+                "discountAmount": 10
+            },
+            "couponCode": "FLAT10",
+            "createAt": 1542013736116,
+            "id": "a8e0295b-5c3d-4936-a891-e559d9909432",
+            "level": "order",
+            "status": "active",
+            "type": "fixed-amount",
+            "updatedAt": 1542014145097,
+            "visibility": {
+                "happyHoursEndTime": {
+                    "hour": 18,
+                    "minute": 0
+                },
+                "happyHoursStartTime": {
+                    "hour": 15,
+                    "minute": 0
+                },
+                "startDateTime": 1541961000000
+            }
+        },
+        "c4a37280-23c3-44a0-bf5e-e3918d81c10c": {
+            "configuration": {
+                "conditions": {
+                    "buy": {
+                        "categoryIds": [],
+                        "productIds": ["c749f832-5d19-4d7e-a223-7823b2a2ab71"],
+                        "quantity": 1
+                    },
+                    "get": {
+                        "categoryIds": [],
+                        "productIds": ["4c586e17-a7a6-4fea-b523-bec95976b172"],
+                        "quantity": 1
+                    }
+                },
+                "discountPercentage": 100,
+                "isAppliedOnce": true
+            },
+            "couponCode": "B1S1",
+            "createAt": 1584356723574,
+            "id": "c4a37280-23c3-44a0-bf5e-e3918d81c10c",
+            "isAutomaticallyApplied": true,
+            "level": "product",
+            "status": "active",
+            "type": "bxgy",
+            "updatedAt": 1584444665237,
+            "visibility": {
+                "happyHoursEndTime": {
+                    "hour": 20,
+                    "minute": 0
+                },
+                "happyHoursStartTime": {
+                    "hour": 10,
+                    "minute": 0
+                },
+                "startsAt": 1584297000000
+            }
+        },
+        "f3cdf3ba-78d0-4d68-964f-5afcfa8b1eb3": {
+            "canApplyAutomatically": true,
+            "configuration": {
+                "conditions": {
+                    "minimumAmount": 100
+                },
+                "discountPercentage": 10
+            },
+            "couponCode": "FL10",
+            "createAt": 1542615202080,
+            "id": "f3cdf3ba-78d0-4d68-964f-5afcfa8b1eb3",
+            "level": "order",
+            "status": "active",
+            "type": "percentage",
+            "updatedAt": 1542619675834,
+            "visibility": {
+                "endsAt": 1542824999999,
+                "happyHoursEndTime": {
+                    "hour": 18,
+                    "minute": 0
+                },
+                "happyHoursStartTime": {
+                    "hour": 10,
+                    "minute": 0
+                },
+                "startsAt": 1542565800000
+            }
+        }
+    },
+    "email": "abishek@slickpos.com",
+    "facebookLink": "",
+    "imageId": "file_jrhzax",
+    "instagramLink": "",
+    "isPaid": true,
+    "isProductPriceBookCreated": true,
+    "itemGroups": [
+        {
+            "id": "41b2c5e7-928c-4fbd-95f5-12fa0e544930",
+            "name": "Main Course 1",
+            "uniqueItemIds": [
+                "c749f832-5d19-4d7e-a223-7823b2a2ab71",
+                "c5b66d79-d774-4f03-9fb1-c3e6e33c1d19",
+                "851f09be-15c5-4d30-a24b-dab6453af86b",
+                "ba3afff6-1046-40ec-923c-fd86949f0fa2"
+            ]
+        },
+        {
+            "id": "cc837cd0-274a-4b31-b99e-2ac530bf8ad8",
+            "name": "Main Course 2",
+            "uniqueItemIds": [
+                "c749f832-5d19-4d7e-a223-7823b2a2ab71",
+                "c5b66d79-d774-4f03-9fb1-c3e6e33c1d19",
+                "851f09be-15c5-4d30-a24b-dab6453af86b",
+                "ba3afff6-1046-40ec-923c-fd86949f0fa2"
+            ]
+        },
+        {
+            "id": "7189a76e-5903-412a-9707-8683bc231f4f",
+            "name": "Beverage",
+            "uniqueItemIds": [
+                "e011e2d8-fcfe-4cf7-987c-713a760773f4",
+                "2ce76df6-08dc-4b45-a7a6-bf14af3a85db",
+                "d2e85570-730b-48e1-bed9-78509ee9b2c3",
+                "4c586e17-a7a6-4fea-b523-bec95976b172"
+            ]
+        }
+    ],
+    "kitchenUsers": {
+        "5009382e-b6e5-45e5-9125-0e1ecc6bf876": {
+            "createdAt": 1554999594076,
+            "name": "Main Chef",
+            "pin": "1010",
+            "registerId": "46a20294-18b7-4fa6-bf70-0ac20ee71355",
+            "status": "active"
+        },
+        "bfa45e64-1ba5-4b52-b475-8404ed4901a6": {
+            "createdAt": 1555050951487,
+            "name": "Chef 2",
+            "pin": "2020",
+            "registerId": "46a20294-18b7-4fa6-bf70-0ac20ee71355",
+            "status": "active"
+        }
+    },
+    "logoUrl": "null",
+    "mobile": "9886165860",
+    "options": {
+        "ownerPin": "0000",
+        "roundoffTotal": true
+    },
+    "orderTicketGroups": {
+        "0e1da580-02d2-40b3-90cc-9223a2c5a2d9": {
+            "createdAt": 1542005683206,
+            "id": "0e1da580-02d2-40b3-90cc-9223a2c5a2d9",
+            "name": "Sandwich Counter"
+        },
+        "81ab0ee8-e789-4e54-b805-61fbb14b4cbc": {
+            "createdAt": 1542612381263,
+            "id": "81ab0ee8-e789-4e54-b805-61fbb14b4cbc",
+            "name": "Juice Counter"
+        }
+    },
+    "paymentTypes": {},
+    "permissionPreferences": {
+        "isCashierAllowedToOfferDiscount": false,
+        "isManagerAllowedToEditEmailAddress": false,
+        "isShiftSummaryHiddenOnLock": false
+    },
+    "plan": {
+        "isWaiterAllowed": true
+    },
+    "printers": {
+        "735914b5-8182-4dfc-8ff5-577904bb19e7": {
+            "config": {
+                "airPrint": {},
+                "bluetoothPrint": {},
+                "networkPrint": {
+                    "ip": "192.168.1.101",
+                    "port": 9100
+                },
+                "silentPrint": {}
+            },
+            "createdAt": 1534325090050,
+            "name": "Epson Thermal Printer",
+            "size": "80mm",
+            "status": "active",
+            "type": "networkPrint",
+            "updatedAt": 1550146589747
+        },
+        "8de34911-9959-48eb-bfd6-44d9c369e3f3": {
+            "config": {
+                "airPrint": {
+                    "connectedPrinterId": "ipp://DEV213DFF.local.:631/ipp/print"
+                },
+                "bluetoothPrint": {},
+                "networkPrint": {},
+                "silentPrint": {}
+            },
+            "createdAt": 1534325004794,
+            "name": "HP A4",
+            "size": "A4",
+            "status": "active",
+            "type": "airPrint",
+            "updatedAt": 1534325030007
+        },
+        "a7afcdce-6637-4f5b-8a4a-8b23528ead92": {
+            "config": {
+                "airPrint": {},
+                "bluetoothPrint": {},
+                "networkPrint": {},
+                "silentPrint": {
+                    "connectedPrinterName": "Billing",
+                    "noOfCharactersInLine": 44
+                }
+            },
+            "createdAt": 1552132962269,
+            "name": "Testing",
+            "size": "80mm",
+            "status": "active",
+            "type": "silentPrint"
+        },
+        "d6015682-1e38-4822-8318-fa46bd2629a5": {
+            "config": {
+                "airPrint": {},
+                "bluetoothPrint": {},
+                "networkPrint": {
+                    "ip": "192.168.1.2"
+                },
+                "silentPrint": {
+                    "connectedPrinterName": "EPSON TM-T82 ReceiptSA4",
+                    "noOfCharactersInLine": 32
+                }
+            },
+            "createdAt": 1534402997249,
+            "name": "Jp printer",
+            "size": "58mm",
+            "status": "active",
+            "type": "silentPrint",
+            "updatedAt": 1537506933222
+        },
+        "e1a808a9-8e1f-45f6-bcd4-ef5fa57f3502": {
+            "config": {
+                "airPrint": {},
+                "bluetoothPrint": {},
+                "networkPrint": {
+                    "ip": "192.168.1.10",
+                    "noOfCharactersInLine": 40,
+                    "port": 6001
+                },
+                "silentPrint": {}
+            },
+            "createdAt": 1542953773837,
+            "name": "Retail POS Kitchen",
+            "size": "80mm",
+            "status": "active",
+            "type": "networkPrint",
+            "updatedAt": 1545987039916
+        },
+        "f41bd2e1-1c8e-4c39-b915-3c23ca8c8f77": {
+            "config": {
+                "airPrint": {},
+                "bluetoothPrint": {},
+                "networkPrint": {},
+                "silentPrint": {
+                    "connectedPrinterName": "HP_LaserJet_Pro_MFP_M126nw"
+                }
+            },
+            "createdAt": 1537188737845,
+            "name": "System Printer",
+            "size": "A4",
+            "status": "active",
+            "type": "silentPrint",
+            "updatedAt": 1552292736231
+        }
+    },
+    "printingPreferences": {
+        "isDisablePrintCopy": false,
+        "isLargerFontKot": false,
+        "isOrderTicketNumberPrintedOnReceipt": false,
+        "isProductNotesPrintedOnReceipt": false,
+        "isProductTaxRateNotPrintedOnReceipt": true,
+        "isReceiptDetailsPrintedOnKot": false,
+        "isReceiptNotPrintedForOrders": false,
+        "isReceiptPrintedBeforePayment": false,
+        "isRegNamePrintedOnReceipt": false,
+        "isServerCopyPrinted": false,
+        "isSlickPOSFooterNotPrinted": true
+    },
+    "productCategories": {
+        "13cea817-61bd-4bdf-94c5-3ead607fbfa3": {
+            "createdAt": 1509416352519,
+            "name": "Snacks",
+            "status": "active"
+        },
+        "945da751-38c5-4604-8933-8484152488f7": {
+            "createdAt": 1509416361290,
+            "name": "Beverages",
+            "order": 10,
+            "orderTicketGroupId": "81ab0ee8-e789-4e54-b805-61fbb14b4cbc",
+            "status": "active",
+            "updatedAt": 1550584882154
+        },
+        "bafe734f-5dcd-4b91-8bcb-97ea427e20af": {
+            "createdAt": 1509415172015,
+            "name": "Cakes",
+            "status": "active"
+        },
+        "d4cf5023-a2db-4915-9df0-e2501366be34": {
+            "createdAt": 1509414233366,
+            "name": "General",
+            "status": "active",
+            "updatedAt": 1542627195213
+        },
+        "eb81a976-dd4c-4a67-9b85-860a9b4a926b": {
+            "createdAt": 1536990329370,
+            "name": "Sandwiches",
+            "orderTicketGroupId": "0e1da580-02d2-40b3-90cc-9223a2c5a2d9",
+            "status": "active",
+            "updatedAt": 1542015159283
+        }
+    },
+    "productTaxes": {
+        "8d00c1dd-58f0-43fe-a618-35ca40b2e76e": {
+            "createdAt": 1509415371909,
+            "name": "SGST",
+            "percent": 2.5,
+            "status": "active",
+            "updatedAt": 1537165367997
+        },
+        "9668d99a-4110-4808-adf2-3fa9ef043f2b": {
+            "createdAt": 1509523155400,
+            "name": "CGST 9",
+            "percent": 9,
+            "status": "active"
+        },
+        "b2f793d2-62aa-45ee-9f62-110a8220f29b": {
+            "createdAt": 1509414233366,
+            "name": "Zero Tax",
+            "percent": 0,
+            "status": "active"
+        },
+        "bbc9cde6-d66b-4f85-a770-d61584bb5f7a": {
+            "createdAt": 1509523204382,
+            "name": "SGST 9",
+            "percent": 9,
+            "status": "active"
+        },
+        "d5c59030-6c76-4f5e-904c-92579f7fd96b": {
+            "createdAt": 1539970438359,
+            "name": "Liquor Excise",
+            "percent": 42,
+            "status": "active"
+        },
+        "fb2b73c5-a757-443c-826a-6683b7115bba": {
+            "createdAt": 1509415356191,
+            "name": "CGST",
+            "percent": 2.5,
+            "status": "active",
+            "updatedAt": 1537165358123
+        }
+    },
+    "receiptTags": [
+        {
+            "color": "blue",
+            "isPrintableOnReceipt": true,
+            "name": "Zomato"
+        },
+        {
+            "color": "orange",
+            "isPrintableOnReceipt": true,
+            "name": "Phone Order"
+        },
+        {
+            "color": "green",
+            "isPrintableOnReceipt": true,
+            "name": "Swiggy"
+        }
+    ],
+    "registers": {
+        "46a20294-18b7-4fa6-bf70-0ac20ee71355": {
+            "activeDevice": {
+                "id": "d48902ae-d636-3c0c-f376-aa330af232f5",
+                "name": "Shop desktop"
+            },
+            "createdAt": 1509414233350,
+            "lastLocalReceiptNumber": "SL-EXP-2006-3",
+            "name": "Main Register",
+            "notificationTokens": [],
+            "options": {
+                "isAcceptStatusEnabled": false,
+                "isOrderTicketItemStatusEnabled": false,
+                "isServedStatusEnabled": false,
+                "printLogoOnReceipt": false,
+                "printReceipt": true,
+                "receiptFooter": "Thank!",
+                "receiptHeader": "Coimbatore, Tamil Nadu, India",
+                "receiptNumberPrefix": "SL",
+                "receiptPrintSize": "80mm",
+                "serverIPAddress": "192.168.0.16",
+                "tableNumbers": "AC(1,2,3,4,5,6,7,8,9,10),Non AC(11,12,13,14)"
+            },
+            "status": "active",
+            "updatedAt": 1574663640354
+        },
+        "5c2748ff-681d-433f-82e2-ec6115486b28": {
+            "activeDevice": {
+                "id": "61929322-39f5-5d9b-0489-2101276a9348",
+                "name": "My laptop"
+            },
+            "createdAt": 1509415329022,
+            "crm": {
+                "additionalDetails": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYmlzaGVrQHNsaWNrcG9zLmNvbSIsIm1lcmNoYW50X2lkIjoiMDAwNTM4Iiwic3VwZXJNZXJjaGFudElkcyI6IjAwMDUzODoiLCJpYXQiOjE1NzA4MDg5MjR9.qND0wtYii7L2hjTYfmvRwBKtU-U9hzsnpsDuJrFbmec",
+                "apiToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJTbGlja1BPUyIsImlhdCI6MTU3MzEyOTc0MiwiZXhwIjo3Mjg0ODYwOTQ0LCJhdWQiOiIiLCJzdWIiOiJCaW5nYWdlIGtleSJ9.NjIy22XPTVT5xWpvwcI8q9OYttKHgt6Yt7UJmfZV0RI",
+                "id": "4d08970b-b972-4631-b664-429bc10123cd",
+                "name": "Bingage",
+                "webhookUrls": {
+                    "getCustomer": "https://bingage-api.slickpos.com/customer",
+                    "redeemCoupon": "https://bingage-api.slickpos.com/redemption/coupon",
+                    "redeemWallet": "https://bingage-api.slickpos.com/redemption/wallet"
+                }
+            },
+            "lastLocalReceiptNumber": "BR-2NV-2104-1",
+            "name": "Brookfields",
+            "notificationTokens": [
+                "dYUO6EkDjLg:APA91bHxxYUVJwIp6zmMotyN1CDh4SJ4qvlksMlOYf9P6NNpKIpRLjsVt0sPKclD5oiCQQGiqTLs1CVBSvc4jPMjiR4dVjhj_REqXCm5KDph5JgFCerLyHy-xnfwOI0Ksa5d7JEXhAk4",
+                "fyP7gQJBpf7EOln4A8o-8z:APA91bGKkA2hVXndq8Q1TAAzrGVM3qezclv1HbI3tp9NnYeXQ1ODrYMlSpZmRUxIC28Cne4wiSSQ1HkZ2w3r1HvekMfR6Gey44zinKyDELdWt_i79NrGx-i-cCZZpP9eu0TLP8r8_iUg",
+                "cL9fMhoNctzsuOI3jRAS7I:APA91bHmJMS_2y7QlDZcX82tbnT6Z_hP0QezvYZCZYKIBDn5Z3z_yKdCPxfRcPfiRYKYz72GGH2cjChFeG_GJR2phwak8K4KE0IRlRCs_8mP0DEQlGUoxfdqdr-gGaMsqOgA9PJ8nwI8"
+            ],
+            "options": {
+                "isAcceptStatusEnabled": false,
+                "isOrderTicketItemStatusEnabled": false,
+                "isServedStatusEnabled": false,
+                "printLogoOnReceipt": false,
+                "printReceipt": true,
+                "receiptFooter": "Thanks, have a nice day!",
+                "receiptHeader": "Coimbatore",
+                "receiptNumberPrefix": "BR",
+                "receiptPrintSize": "80mm",
+                "serverIPAddress": "192.168.0.101"
+            },
+            "paymentGateways": [],
+            "status": "active",
+            "updatedAt": 1601999159780
+        }
+    },
+    "sellingPreferences": {
+        "isAllAndTopCategoryHidden": true,
+        "isAutoKotEnabledForOrders": false,
+        "isCustomerDataEnforced": false,
+        "isDineInOrderEnabledInWaiterApp": true,
+        "isIncomingOrderEnabled": true,
+        "isListViewDefault": false,
+        "isOrderTicketEnabled": false,
+        "isQuantityIncreaseDecreaseButtonDisabled": false,
+        "isQuantityModalPromptEnabled": false,
+        "isQuickBillingEnabled": false,
+        "isRoundoffDisabled": false,
+        "isSequentialLrnEnforced": false,
+        "isShiftEnforced": false
+    },
+    "status": "active",
+    "taxes": {},
+    "taxPolicies": {
+        "7e838c20-7d6e-4b94-9f06-72469a1a8bac": {
+            "createdAt": 1509415384318,
+            "isTaxInclusive": false,
+            "name": "GST 5",
+            "status": "active",
+            "taxIds": [
+                "8d00c1dd-58f0-43fe-a618-35ca40b2e76e",
+                "fb2b73c5-a757-443c-826a-6683b7115bba"
+            ],
+            "updatedAt": 1542619620637
+        },
+        "88a89671-09d3-4934-8d63-17008a8d982b": {
+            "createdAt": 1509414233366,
+            "isTaxInclusive": true,
+            "name": "Zero Tax Group",
+            "status": "active",
+            "taxIds": ["b2f793d2-62aa-45ee-9f62-110a8220f29b"]
+        },
+        "ac7de543-8ede-4b12-9a48-5086c26a285b": {
+            "createdAt": 1509523220762,
+            "isTaxInclusive": false,
+            "name": "GST 18",
+            "status": "active",
+            "taxIds": [
+                "9668d99a-4110-4808-adf2-3fa9ef043f2b",
+                "bbc9cde6-d66b-4f85-a770-d61584bb5f7a"
+            ],
+            "updatedAt": 1523012077841
+        },
+        "dcddaa53-f9c9-4759-b1c0-e49e3cfeae17": {
+            "createdAt": 1539970459044,
+            "isTaxInclusive": false,
+            "name": "Liquor Tax Group",
+            "status": "active",
+            "taxIds": ["d5c59030-6c76-4f5e-904c-92579f7fd96b"],
+            "updatedAt": 1542619634479
+        }
+    },
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI0MDYxMjc2Zi03NDhhLTQ2Y2UtYjgzMy0yZDc0OGU3MzMwNWQiLCJyb2wiOiJ1c2VyIiwiYXVkIjoidzRGNDV2cDVicGxldEFGZE5pWnhVRUV6cWFTemZ3SzAiLCJpYXQiOjE1ODcwNDExODAsImlzcyI6InNsaWNrcG9zIn0.fUKBDF5_suOl2AjnS3V3nUbu9Vw6kpzx6w2RhvK6F-U",
+    "updatedAt": 1614856141165,
+    "userName": "Abishek Baskaran",
+    "userUuid": "auth0|59f7d536d1f45914111fb236",
+    "uuid": "4061276f-748a-46ce-b833-2d748e73305d",
+    "variantGroups": [
+        {
+            "id": "64f56216-b9b9-4e64-a781-dc0f3807c74d",
+            "name": "Sandwich Size",
+            "order": 1,
+            "variantIds": [
+                "b4b8f245-9217-4917-9c8a-ebf9f0852e6e",
+                "057e6bf4-4beb-45ad-a907-1591fa51fc17"
+            ]
+        },
+        {
+            "id": "007835f5-0188-45b6-89ca-6447f97a45c3",
+            "name": "Fillings",
+            "variantIds": [
+                "8d518dad-3b80-49e5-a01b-45eef54c8f8a",
+                "5104e318-dfb0-433e-a362-2457d5e03242",
+                "11f27866-09b6-414b-9b94-bc892aca6d12"
+            ]
+        },
+        {
+            "id": "16f91a87-24a1-4555-85be-04ea7e53e318",
+            "name": "Cake 80 / 550",
+            "variantIds": [
+                "35941ad1-b496-4783-b0f9-1f27c25c47ee",
+                "fb1c4650-9f5f-4eee-9362-e94f0523e6fa"
+            ]
+        },
+        {
+            "id": "297e0275-4269-4a2c-8c6f-98ba389f1af6",
+            "name": "Combo Group 1",
+            "order": 1,
+            "variantIds": [
+                "08040d5b-5a77-4f0a-a843-49fbfd83b8ac",
+                "8c194029-5153-4005-8dbb-c13171fca632",
+                "b8f81ab7-e7a3-4967-9034-7942ca9dfb4e"
+            ]
+        },
+        {
+            "id": "97d472f1-1e07-4e87-9dcd-b6c450578709",
+            "name": "Combo Group 2",
+            "order": 2,
+            "variantIds": [
+                "08040d5b-5a77-4f0a-a843-49fbfd83b8ac",
+                "8c194029-5153-4005-8dbb-c13171fca632",
+                "b8f81ab7-e7a3-4967-9034-7942ca9dfb4e"
+            ]
+        }
+    ],
+    "variants": [
+        {
+            "comment": "for Sandwich",
+            "id": "b4b8f245-9217-4917-9c8a-ebf9f0852e6e",
+            "name": "Small",
+            "order": 1,
+            "price": 120
+        },
+        {
+            "comment": "for Sandwich",
+            "id": "057e6bf4-4beb-45ad-a907-1591fa51fc17",
+            "name": "Medium",
+            "order": 2,
+            "price": 160
+        },
+        {
+            "id": "8d518dad-3b80-49e5-a01b-45eef54c8f8a",
+            "name": "Veg",
+            "order": 1,
+            "price": 10
+        },
+        {
+            "id": "5104e318-dfb0-433e-a362-2457d5e03242",
+            "name": "Chicken",
+            "order": 2,
+            "price": 40
+        },
+        {
+            "id": "11f27866-09b6-414b-9b94-bc892aca6d12",
+            "name": "Fish",
+            "order": 3,
+            "price": 50
+        },
+        {
+            "id": "35941ad1-b496-4783-b0f9-1f27c25c47ee",
+            "name": "Pastry 80",
+            "price": 80
+        },
+        {
+            "id": "fb1c4650-9f5f-4eee-9362-e94f0523e6fa",
+            "name": "Half Kg 550",
+            "price": 550
+        },
+        {
+            "id": "08040d5b-5a77-4f0a-a843-49fbfd83b8ac",
+            "name": "Vanilla",
+            "order": 1,
+            "price": 50
+        },
+        {
+            "id": "8c194029-5153-4005-8dbb-c13171fca632",
+            "name": "Chocolate",
+            "order": 2,
+            "price": 50
+        },
+        {
+            "id": "b8f81ab7-e7a3-4967-9034-7942ca9dfb4e",
+            "name": "Pista",
+            "order": 3,
+            "price": 50
+        }
+    ],
+    "waiters": {
+        "1dcafee6-ed91-4a36-9740-923c66d7a3ea": {
+            "createdAt": 1548237792067,
+            "name": "Jay",
+            "pin": "7777",
+            "registerId": "46a20294-18b7-4fa6-bf70-0ac20ee71355",
+            "status": "active"
+        },
+        "57a23d76-5b37-413a-b877-7d08fdc74385": {
+            "createdAt": 1548238008574,
+            "name": "Raj",
+            "pin": "8888",
+            "registerId": "46a20294-18b7-4fa6-bf70-0ac20ee71355",
+            "status": "active"
+        },
+        "c117a56f-e818-4447-ac72-a0abf1b71257": {
+            "createdAt": 1548232193742,
+            "name": "John",
+            "pin": "6666",
+            "registerId": "46a20294-18b7-4fa6-bf70-0ac20ee71355",
+            "status": "active"
+        },
+        "dfe82742-7f94-4076-806d-b793bacc16c6": {
+            "createdAt": 1595331958166,
+            "name": "ABS",
+            "pin": "4477",
+            "registerId": "5c2748ff-681d-433f-82e2-ec6115486b28",
+            "status": "active"
+        }
+    },
+    "websiteLink": ""
+}
